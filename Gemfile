@@ -63,3 +63,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'faker'
 gem 'table_print'
+gem 'nyancat', '~> 0.2.1'
