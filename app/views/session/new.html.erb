@@ -1,0 +1,14 @@
+<h2> Log toi ma gueule </h2>
+<%= form_tag url_for(action: 'create'), method: "post" do %>
+
+      <%= label_tag 'Email' %>
+      <%= text_field_tag 'email' %>
+      <br> <br>
+
+      <%= label_tag 'mot de passe' %>
+      <%= password_field_tag 'password' %>
+      <br> <br>
+       <%= submit_tag "Log in" %>
+
+
+      <% end %>
